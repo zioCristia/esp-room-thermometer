@@ -46,6 +46,8 @@ sensor:
 
 This allows us to read the values of temperature and umidity and have them as a sensor in our Home Assistant server.
 
+Check the [complete .yaml file](/room-temperature.yaml.example) if you need an example ready to use for your EspHome device.
+
 ## Pcb
 The design of the pcb has been made with Eagle. The various components were added thanks to libraries found on the internet.
 For semplicity reasons all the components are throgh hole and the esp is inserted thanks to female socket header connectors.
