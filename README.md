@@ -50,4 +50,9 @@ This allows us to read the values of temperature and umidity and have them as a 
 The design of the pcb has been made with Eagle. The various components were added thanks to libraries found on the internet.
 For semplicity reasons all the components are throgh hole and the esp is inserted thanks to female socket header connectors.
 
+In one side of the pcb there are esp and dht11 and in the other hlk and a jst connector for power supply.
+
+If you prefer to use battery power you can add a battery holder and esily make a sensor similar to the ones ready to use with a lower overall cost.
+
 ## 3D printed enclouser
+Will come soon...
