@@ -29,6 +29,8 @@ The esp is programmed before the insertion in the module thanks to a usb adapter
 I didn't want batteries to power the module so you don't have the bother of changing them and making sure they are charged, plus I think in the long run changing a battery every year or so is not convenient.
 However if that is more suitable for you there will be no problmes to add a battery holder and use a 3.3V battery.
 
+I know that DHT11 is not a very reliable temperature and umidity sensor but for the purpose of this project is more than sufficient.
+
 ## Software
 The software used is EspHome in order to integrate the sensors with my HomeAssistant server but you may as well use another software to your liking.
 
@@ -46,15 +48,22 @@ sensor:
 
 This allows us to read the values of temperature and umidity and have them as a sensor in our Home Assistant server.
 
+You can add some [filters](https://esphome.io/components/sensor/index.html#sensor-filters) for calibrating dht, this should be done by comparison with a reliable thermometer.
+
 Check the [complete .yaml file](/room-temperature.yaml.example) if you need an example ready to use for your EspHome device.
 
 ## Pcb
 The design of the pcb has been made with Eagle. The various components were added thanks to libraries found on the internet.
 For semplicity reasons all the components are throgh hole and the esp is inserted thanks to female socket header connectors.
 
-In one side of the pcb there are esp and dht11 and in the other hlk and a jst connector for power supply.
+In one side of the pcb there are esp and dht11 and in the other hlk and a jst connector for power supply. The intention was to have all soldered on the board but the heat release by the hlk and the esp compromised the reading of temperature and umidity values. For this reason dht sensor is istalled thanks to 10cm soldered cables to the pcb. Some 3 way jst connector could be use to have a nicer design.
 
 If you prefer to use battery power you can add a battery holder and esily make a sensor similar to the ones ready to use with a lower overall cost.
 
 ## 3D printed enclouser
-Will come soon...
+The pourposes of the 3d enclouser are: 
+- to mantain in a fix position the dht sensor
+- to allow proper measurements of the room temperature thanks to openings 
+- to be able to place the module in a hidden way next to the power switches.
+
+In my home we have btcino switches, so a similar design was needed.
