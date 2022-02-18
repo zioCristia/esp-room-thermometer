@@ -59,7 +59,14 @@ Check the [complete .yaml file](/room-temperature.yaml.example) if you need an e
 The design of the pcb has been made with Eagle. The various components were added thanks to libraries found on the internet.
 For semplicity reasons all the components are throgh hole and the esp is inserted thanks to female socket header connectors.
 
-In one side of the pcb there are esp and dht11 and in the other hlk and a jst connector for power supply. The intention was to have all soldered on the board but the heat release by the hlk and the esp compromised the reading of temperature and umidity values. For this reason dht sensor is istalled thanks to 10cm soldered cables to the pcb. Some 3 way jst connector could be use to have a nicer design.
+In one side of the pcb there are esp and dht11 and in the other hlk and a jst connector for power supply. The intention was to have all soldered on the board but the heat released by the hlk and the esp compromised the reading of temperature and umidity values. For this reason dht sensor is istalled thanks to 10cm soldered cables to the pcb. Some 3 way jst connector could be use to have a nicer design. 
+
+![alt text](/images/schematics)
+![alt text](/images/board v1)
+
+The second version of the pcb allows to have larger distance between dht11 and other components, so if you have more space available inside your switches box it's prefereable to use v2 (but it is not tested yet).
+
+![alt text](/images/board v2)
 
 If you prefer to use battery power you can add a battery holder and esily make a sensor similar to the ones ready to use with a lower overall cost.
 
