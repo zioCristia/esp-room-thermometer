@@ -77,3 +77,5 @@ The pourposes of the 3d enclouser are:
 - to be able to place the module in a hidden way next to the power switches.
 
 In my home we have btcino switches, so a similar design was needed.
+
+To be continued...
