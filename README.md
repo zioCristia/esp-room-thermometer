@@ -15,6 +15,9 @@ Total cost per sensor is around 5.5€ and includes all components and pcb. It d
 
 The design is intended to minimize the dimensions and thus be able to put the sensor inside the power boxes, where there are light switches to be clear. I 3D printed a container to be able to easily insert it in the boxes type btcino and allow the sensor to effectively detect the temperature and humidity outside through some openings.
 
+![alt text](/images/IMG_4552.jpg)
+![alt text](/images/IMG_4554.jpg)
+
 ## Hardware
 The module is composed by:
 * esp8266-01
