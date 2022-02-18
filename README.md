@@ -61,14 +61,14 @@ For semplicity reasons all the components are throgh hole and the esp is inserte
 
 In one side of the pcb there are esp and dht11 and in the other hlk and a jst connector for power supply. The intention was to have all soldered on the board but the heat released by the hlk and the esp compromised the reading of temperature and umidity values. For this reason dht sensor is istalled thanks to 10cm soldered cables to the pcb. Some 3 way jst connector could be use to have a nicer design. 
 
-![alt text](/images/schematics)
-![alt text](/images/board v1)
+![alt text](/images/schematics.png)
+![alt text](/images/board-v1.png)
 
 The second version of the pcb allows to have larger distance between dht11 and other components, so if you have more space available inside your switches box it's prefereable to use v2 (but it is not tested yet).
 
-![alt text](/images/board v2)
+![alt text](/images/board-v2.png)
 
-If you prefer to use battery power you can add a battery holder and esily make a sensor similar to the ones ready to use with a lower overall cost.
+If you prefer to use battery power you can place a battery holder where there is the hlk and esily make a sensor similar to the ones ready to use with a lower overall cost.
 
 ## 3D printed enclouser
 The pourposes of the 3d enclouser are: 
