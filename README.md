@@ -34,6 +34,8 @@ However if that is more suitable for you there will be no problmes to add a batt
 
 I know that DHT11 is not a very reliable temperature and umidity sensor but for the purpose of this project is more than sufficient.
 
+For a complete list of parts with some links: https://docs.google.com/spreadsheets/d/1-pkWVYFf2BbrVPfpay5KMb0pS1-IxxCx1xM6d1OcC2A/edit#gid=0
+
 ## Software
 The software used is EspHome in order to integrate the sensors with my HomeAssistant server but you may as well use another software to your liking.
 
