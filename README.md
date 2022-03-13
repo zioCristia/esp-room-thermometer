@@ -2,6 +2,8 @@
 Esp8266-01 based module, 220V ac powered, for measuring room temperature for your domotic house.
 Any possibility of improvement is accepted.
 
+![alt text](/images/IMG_4593.jpg)
+
 ## Table of contenets
 * [General info](#general-info)
 * [Hardware](#hardware)
@@ -80,4 +82,5 @@ The pourposes of the 3d enclouser are:
 
 In my home we have btcino switches, so a similar design was needed.
 
-To be continued...
+![alt text](/images/IMG_4584.jpg)
+![alt text](/images/IMG_4585.jpg)
