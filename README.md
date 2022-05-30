@@ -10,7 +10,7 @@ Any possibility of improvement is accepted.
 * [Hardware](#hardware)
 * [Software](#software) 
 * [Pcb](#pcb) 
-* [3D printed enclosure](#3d-printed-enclouser) 
+* [3D printed enclosure](#3d-printed-enclosure) 
 
 ## General info 
 
